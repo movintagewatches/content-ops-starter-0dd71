@@ -8,7 +8,7 @@
 @layer base {
     body {
         @apply text-base;
-        font-family: 'Sansation', system-ui, sans-serif;
+        font-family: 'Sansation', system-ui, sans-serif !important;
     }
     h1,
     .h1,
@@ -22,10 +22,10 @@
     h6 {
         @apply break-words;
         line-height: 1.2;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Playfair Display', serif !important;
     }
     blockquote {
-        font-family: 'Playfair Display', serif;
+        font-family: 'Playfair Display', serif !important;
     }
 }
 
